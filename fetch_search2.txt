@@ -1,0 +1,1 @@
+node_modules/node-fetch/README.md:  globalThis.fetch = fetch

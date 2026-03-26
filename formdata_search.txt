@@ -1,0 +1,24 @@
+node_modules/node-fetch/src/body.js:import {FormData, formDataToBlob} from 'formdata-polyfill/esm.min.js';
+node_modules/node-fetch/src/utils/multipart-parser.js:import {FormData} from 'formdata-polyfill/esm.min.js';
+node_modules/node-fetch/src/index.js:import {FormData} from 'formdata-polyfill/esm.min.js';
+node_modules/node-fetch/package.json:    "formdata-polyfill": "^4.0.10"
+node_modules/node-fetch/@types/index.d.ts:import {FormData} from 'formdata-polyfill/esm.min.js';
+node_modules/formdata-polyfill/esm.min.js:/*! formdata-polyfill. MIT License. Jimmy Wärting <https://jimmy.warting.se/opensource> */
+node_modules/formdata-polyfill/formdata-to-blob.js:/*! formdata-polyfill. MIT License. Jimmy Wärting <https://jimmy.warting.se/opensource> */
+node_modules/formdata-polyfill/formdata-to-blob.js:  const boundary = ('----formdata-polyfill-' + Math.random())
+node_modules/formdata-polyfill/FormData.js:/* formdata-polyfill. MIT License. Jimmy Wärting <https://jimmy.warting.se/opensource> */
+node_modules/formdata-polyfill/FormData.js:        const boundary = '----formdata-polyfill-' + Math.random(),
+node_modules/formdata-polyfill/formdata.min.js:/*! formdata-polyfill. MIT License. Jimmy W?rting <https://jimmy.warting.se/opensource> */
+node_modules/formdata-polyfill/formdata.min.js:d,e),k=!0;M(this.i,function(p){p[0]===c?k&&(k=!f.push(g)):f.push(p)});k&&f.push(g);this.i=f};h.values=function d(){var e=this,f,g,k,p,t;return K(d,function(x){1==x.h&&(f=v(e),g=f.next());if(3!=x.h){if(g.done){x.h=0;return}k=g.value;p=v(k);p.next();t=p.next().value;return E(x,t)}g=f.next();x.h=2})};X.prototype._asNative=function(){for(var d=new R,e=v(this),f=e.next();!f.done;f=e.next()){var g=v(f.value);f=g.next().value;g=g.next().value;d.append(f,g)}return d};X.prototype._blob=function(){var d="----formdata-polyfill-"+
+node_modules/formdata-polyfill/package.json:  "name": "formdata-polyfill",
+node_modules/formdata-polyfill/README.md:npm install formdata-polyfill
+node_modules/formdata-polyfill/README.md:import { FormData } from 'formdata-polyfill/esm.min.js'
+node_modules/formdata-polyfill/README.md:import { FormData, formDataToBlob } from 'formdata-polyfill/esm.min.js'
+node_modules/formdata-polyfill/README.md:import 'formdata-polyfill' // that's it
+node_modules/formdata-polyfill/README.md:var FormData = require('formdata-polyfill')
+node_modules/formdata-polyfill/README.md:require('formdata-polyfill')
+node_modules/formdata-polyfill/README.md:  [npm-image]: https://img.shields.io/npm/v/formdata-polyfill.svg
+node_modules/formdata-polyfill/README.md:  [npm-url]: https://www.npmjs.com/package/formdata-polyfill
+node_modules/.package-lock.json:    "node_modules/formdata-polyfill": {
+node_modules/.package-lock.json:      "resolved": "https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz",
+node_modules/.package-lock.json:        "formdata-polyfill": "^4.0.10"

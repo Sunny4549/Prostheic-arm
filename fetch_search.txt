@@ -1,0 +1,5 @@
+node_modules/node-fetch/src/index.js: * a request API compatible with window.fetch
+node_modules/node-fetch/README.md:Instead of implementing `XMLHttpRequest` in Node.js to run browser-specific [Fetch polyfill](https://github.com/github/fetch), why not go from native `http` to `fetch` API directly? Hence, `node-fetch`, minimal code for a `window.fetch` compatible API on Node.js runtime.
+node_modules/node-fetch/README.md:- Stay consistent with `window.fetch` API.
+node_modules/node-fetch/README.md:- If you happen to use a missing feature that `window.fetch` offers, feel free to open an issue.
+node_modules/@reduxjs/toolkit/src/query/tests/fetchBaseQuery.test.tsx:  test('respects mocking window.fetch after a fetch base query is created', async () => {

@@ -1,0 +1,5 @@
+{
+  "name": "EMG Virtual Prosthetic Hand",
+  "description": "A real-time system that reads EMG signals, predicts finger movements using a trained ML model, and visualizes the result as an animated virtual hand.",
+  "requestFramePermissions": ["serial"]
+}
